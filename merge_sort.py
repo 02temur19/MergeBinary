@@ -45,7 +45,7 @@ def mergeSort(arr, l, r):
         mergeSort(arr, m + 1, r)
         merge(arr, l, m, r)
 
-if __name__ == 'main':
+if __name__ == '__main__':
     arr = [12, 11, 13, 5, 6, 7]
     n = len(arr)
     print("Given array is")

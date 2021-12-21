@@ -22,7 +22,7 @@ def binary_search(arr, low, high, x):
         return -1
 
 
-if __name__ == 'main':
+if __name__ == '__main__':
     # Test array
     arr = [2, 3, 4, 10, 40]
     x = 10
